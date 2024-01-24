@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.allcontent{
+    width: 100%;
+    height: 100%;
+    background-color: ;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+span{
+    font-size: 25px;
+}
+
+.header p{
+    text-align: center;
+}
+
+
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.navbar{ 
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+
+.logo{
+    width: 50%;
+    height: 100px;
+
+}
+
+.logo img{
+    width: 10%;
+}
+
+
+.text a{
+    
+    width: 50%;
+    color: black;
+    font-weight: bolder;
+    padding: 10px 20px 20px 10px;
+}
+
+.navbar a:hover{
+    color: brown;
+    border-bottom: 3px solid chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cstusection1{
+    width: 100%;
+    height:550px;
+    display: flex;
+    background-color: white;
+}
+
+.leftsection{
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.leftsection .bestofbutton{
+    font-size: 16px;
+    color: black;
+    background-color:  #4CAF50;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin: 4px 2px;
+    transition: 0.4s all ease;
+}
+
+
+.leftsection .bestoferbutton:hover {
+
+    background-color: #45a049;
+   
+   }
+
+.leftsection h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 5000;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+
+
+
+.rightsection{
+    width: 50%;
+    height: 550px;
+background-color: white;
+
+}
+
+
+.rightsection img{
+    width: 100%;
+    height: 550px;
+}
+
+
+.babu{
+    padding-top: 50px;
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    background-color: white;
+}
+
+.babu h1{
+    text-align: center;
+}
+
+.babu img{
+    width: 100%;
+    margin: auto;
+    height: 500px;
+
+}
+
+
+.opinion{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: auto;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    background-color: ;
+ 
+}
+
+.testi{
+    border: 2px solid white;
+}
+.testi h1{
+    text-align: center;
+    border-top: 7px solid black;
+    border-left: 7px solid red;
+    border-right:7px solid red;
+    border-bottom: 7px solid black;
+}
+
+.testi p{
+    text-align: center;
+    border: 7px solid red;
+    margin: auto;
+}
+
+.testi h3{
+    text-align: center;
+    border: 5px solid black;
+    width: 100%;
+    margin: auto;
+}
+
+.teamgrid{
+    padding: 75px 20px 0 25px ;
+    width: 100%;
+    margin: auto;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.team{
+    width: 100%;
+    height: 700px;
+    border: 3px solid green;
+    background-color: gold;
+}
+
+.team img{
+    width: 100%;
+    height: 500px;
+}
+
+ .socialmedia a,i{
+    color: black;
+    padding: 15px 14px 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.socialmedia a,i:hover{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+.rightside{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr;
+    background-color: gold;
+}
+
+.foot{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.foot img{
+    width: 5%;
+    height: 70px;
+    border: 3px solid azure;
+    border-radius: 500px;
+}
+
+.links a,i{
+    color: black;
+}
+
+
+
+
